@@ -66,7 +66,6 @@ project structure:
 	C:\daison\hello_world>if exist build (rmdir /s/q build  )
 	C:\daison\hello_world>mkdir build
 	C:\daison\hello_world>cd build
-	rd /s /q "*"
 	The filename, directory name, or volume label syntax is incorrect.
 	-- The C compiler identification is GNU 8.1.0
 	-- The CXX compiler identification is GNU 8.1.0
