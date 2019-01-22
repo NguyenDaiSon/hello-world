@@ -1,11 +1,13 @@
 #==================
 # 0. purpose
-# =================
-how to use github
+#=================
+- how to use github
+- first project on github
 
 #==================
 # 1. hello-world 
 #==================
+```
 project structure:
 	hello-world/
 	├── build_unix.sh
@@ -14,11 +16,14 @@ project structure:
 	├── README.md
 	└── src
 	    └── hello_world.cpp
+```
+**source code is cross-platform**
 
 #==================
 # 2. build output
 #==================
 # 2.1 sample output on Ubuntu
+```
 	./build_unix.sh
 	-- The C compiler identification is GNU 6.3.0
 	-- The CXX compiler identification is GNU 6.3.0
@@ -41,8 +46,10 @@ project structure:
 	[ 50%] Building CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o
 	[100%] Linking CXX executable hello_world
 	[100%] Built target hello_world
+```
 
 # 2.2 sample output on Redhat
+```
 	./build_unix.sh
 	-- The C compiler identification is GNU 4.4.7
 	-- The CXX compiler identification is GNU 4.4.7
@@ -61,8 +68,10 @@ project structure:
 	[100%] Building CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o
 	Linking CXX executable hello_world
 	[100%] Built target hello_world
+```
 
 # 2.3 sample output on Windows
+```
 	C:\daison\hello_world>if exist build (rmdir /s/q build  )
 	C:\daison\hello_world>mkdir build
 	C:\daison\hello_world>cd build
@@ -90,4 +99,5 @@ project structure:
 	[ 50%] Building CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.obj
 	[100%] Linking CXX executable hello_world.exe
 	[100%] Built target hello_world
+```
 
