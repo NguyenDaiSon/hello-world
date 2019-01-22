@@ -1,14 +1,10 @@
-#==================
 # 0. purpose
-#=================
 - how to use github
 - first project on github
 
-#==================
 # 1. hello-world 
-#==================
+**1.1 project structure:**
 ```
-project structure:
 	hello-world/
 	├── build_unix.sh
 	├── build_windows.bat
@@ -17,12 +13,10 @@ project structure:
 	└── src
 	    └── hello_world.cpp
 ```
-**source code is cross-platform**
+**1.2 source code is cross-platform**
 
-#==================
 # 2. build output
-#==================
-# 2.1 sample output on Ubuntu
+**2.1 sample output on Ubuntu**
 ```
 	./build_unix.sh
 	-- The C compiler identification is GNU 6.3.0
@@ -48,7 +42,7 @@ project structure:
 	[100%] Built target hello_world
 ```
 
-# 2.2 sample output on Redhat
+**2.2 sample output on Redhat**
 ```
 	./build_unix.sh
 	-- The C compiler identification is GNU 4.4.7
@@ -70,7 +64,7 @@ project structure:
 	[100%] Built target hello_world
 ```
 
-# 2.3 sample output on Windows
+**2.3 sample output on Windows**
 ```
 	C:\daison\hello_world>if exist build (rmdir /s/q build  )
 	C:\daison\hello_world>mkdir build
